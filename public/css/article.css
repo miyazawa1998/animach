@@ -1,0 +1,144 @@
+.content{
+    background-color: #EDE3DA;
+    padding-bottom: 100px;
+}
+
+.article__container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.search__box{
+    display: block;
+    position: relative;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.freeword__search{
+    margin-top: 30px;
+}
+
+.freeword__search_input{
+    width: 300px;
+    height: 40px;
+    display: block;
+    padding: 0px 20px;
+    border-radius: 20px;
+    border: 1px solid #7A5533;
+    font-size: 20px;
+    line-height: 1;
+    margin: 0 auto;
+}
+
+.freeword__search_input::placeholder{
+    font-size: 14px;
+    position: relative;
+    bottom: 2px;
+}
+
+.freeword__search_submit{
+    position: absolute;
+    right: 39%;
+    top: 46%;
+    transform: translateY(-50%);
+}
+
+.select__search{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.select__toggle{
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.select__search_block{
+    display: none;
+    background-color: #fff;
+    border: 1px solid #333;
+    padding: 40px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.select__search_inner{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.select__search_option{
+    margin-right: 10px;
+    width: 180px;
+    height: 35px;
+    border: 1px solid #7A5533;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.article__contents{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.article__title_block{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.article__title{
+    font-size: 36px;
+    display: inline-block;
+    border-bottom: 5px dotted #7A5533;
+}
+
+.article__box{
+    margin-top: 30px;
+}
+
+.article__box_inner{
+    background-color: #fff;
+    border: 1px solid #333;
+    padding: 40px;
+}
+
+.article__box_inner-title{
+    text-align: left;
+    display: inline-block;
+    border-bottom: 5px dotted #7A5533;
+    font-size: 26px;
+}
+
+.article__box_inner-flex{
+    display: flex;
+    padding-top: 30px;
+}
+
+.article__box_inner-img{
+    width: 500px;
+    height: 300px;
+}
+
+.article__box_detail{
+    margin-left: 50px;
+    width: 35%;
+}
+
+.article__box_detail-data{
+    margin-bottom: 15px;
+}
+
+.last-data{
+    margin-bottom: 50px;
+}
+
+.article__box_dd{
+    text-indent: 1em;
+}
+
+.article__box_btn{
+    text-align: left;
+}

@@ -1,0 +1,82 @@
+.content{
+    background-image: url(../images/dog-woman.jpg);
+    background-color:rgba(255,255,255,0.5);
+    background-blend-mode:lighten;
+    background-position:center ; 
+    background-size:cover;                 
+    width:100%;                             
+    height:905px; 
+}
+
+.top__container{
+    width: 1200px;
+    height: 905px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.title__box{
+    text-align: center;
+}
+
+.top__title{
+    font-size: 36px;
+}
+
+.top__title_text{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.search__box{
+    margin-top: 50px;
+}
+
+.freeword__search{
+    text-align: center;
+}
+
+.freeword__search_label{
+    font-size: 25px;
+}
+
+.freeword__search_input{
+    width: 300px;
+    height: 40px;
+    display: block;
+    padding: 0px 20px;
+    border-radius: 20px;
+    border: 1px solid #7A5533;
+    font-size: 20px;
+    line-height: 1;
+    margin: 0 auto;
+}
+
+.select__search{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.select__search_box{
+    margin-right: 15px;
+}
+
+.select__search_label{
+    font-size: 25px;
+}
+
+.select__search_option{
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid #7A5533;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.search__btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
